@@ -34,4 +34,11 @@ public class Genre implements Parcelable {
         parcel.writeInt(id);
         parcel.writeString(name);
     }
+
+    @Override
+    public String toString() {
+        return "Genre{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
